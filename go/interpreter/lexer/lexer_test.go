@@ -111,6 +111,8 @@ if (5 < 10) {
 
 	for i, tt := range tests {
 		tok := l.NextToken()
+    print(tok.Literal)
+    println(tt.expectedLiteral)
 
 		if tok.Type != tt.expectedType {
 			t.Fatalf("tests[%d] - tokentype wrong. expected=%q, got=%q",
