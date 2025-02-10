@@ -1,0 +1,25 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E100] Syntax Error: /home/mati/homelab/Scala/laby12/src/main/scala/Zad1.scala:41:6 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m41 |[0m      sender ! Result(count)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m      ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      [33mmethod[0m [35msender[0m in [33mtrait[0m [35mActor[0m must be called with () argument[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Previously an empty argument list () was implicitly inserted when calling a nullary method without arguments. E.g.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m def next(): T = ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         |next     // is expanded to next()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m In Dotty, this idiom is an error. The application syntax has to follow exactly the parameter syntax.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Excluded from this rule are methods that are defined in Java or that override methods defined in Java.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0mPreviously an empty argument list () was implicitly inserted when calling a nullary method without arguments. E.g.[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mdef next(): T = ...[0m
+[0m[[0m[31merror[0m] [0m[0m        |next     // is expanded to next()[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mIn Dotty, this idiom is an error. The application syntax has to follow exactly the parameter syntax.[0m
+[0m[[0m[31merror[0m] [0m[0mExcluded from this rule are methods that are defined in Java or that override methods defined in Java.[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

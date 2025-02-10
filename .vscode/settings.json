@@ -7,7 +7,7 @@
     "window.titleBarStyle": "custom",
     "catppuccin.italicKeywords": false,
     "files.watcherExclude": {
-        "**/target": true
+      "**/target": true
     },
 "editor.tokenColorCustomizations": {   
     "textMateRules": [

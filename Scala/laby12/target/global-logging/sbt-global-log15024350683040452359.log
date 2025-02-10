@@ -1,0 +1,51 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(67a77f9f-8e31-4b06-9922-567d0b1d3b3e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/mati/homelab/Scala/laby12/target/scala-3.3.1/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/mati/homelab/Scala/laby12/src/main/scala/Zad1.scala:13:32 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m      context.become(receiveJob(workers))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                ^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                Found:    (workers : Unit)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                Required: List[Worker][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Explanation (enabled by `-explain`)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m Tree:    13|workers[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m I tried to show that[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   (workers : Unit)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m conforms to[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   List[Worker][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m but the comparison trace ended with `false`:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   ==> (workers : Unit)  <:  List[Worker][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     ==> Unit  <:  List[Worker] (left is approximated)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     <== Unit  <:  List[Worker] (left is approximated) = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   <== (workers : Unit)  <:  List[Worker] = false[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m The tests were made under the empty constraint[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    ----------------------------------------------------------------------------[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34mExplanation[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[34m===========[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mTree:    13|workers[0m
+[0m[[0m[31merror[0m] [0m[0mI tried to show that[0m
+[0m[[0m[31merror[0m] [0m[0m  (workers : Unit)[0m
+[0m[[0m[31merror[0m] [0m[0mconforms to[0m
+[0m[[0m[31merror[0m] [0m[0m  List[Worker][0m
+[0m[[0m[31merror[0m] [0m[0mbut the comparison trace ended with `false`:[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  ==> (workers : Unit)  <:  List[Worker][0m
+[0m[[0m[31merror[0m] [0m[0m    ==> Unit  <:  List[Worker] (left is approximated)[0m
+[0m[[0m[31merror[0m] [0m[0m    <== Unit  <:  List[Worker] (left is approximated) = false[0m
+[0m[[0m[31merror[0m] [0m[0m  <== (workers : Unit)  <:  List[Worker] = false[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThe tests were made under the empty constraint[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/mati/homelab/Scala/laby12/src/main/scala/Zad1.scala:19:60 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m      workers.zip(text).foreach{ [33mcase[0m (worker, t) => worker ! Execute(t) }[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                     ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                       value ! is not a member of Worker[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Dec 20, 2024, 11:28:17 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

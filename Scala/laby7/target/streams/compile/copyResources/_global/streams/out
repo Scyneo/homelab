@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/mati/homelab/Scala/lab07/src/main/resources/liczby.txt,/home/mati/homelab/Scala/lab07/target/scala-3.3.1/classes/liczby.txt)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/mati/homelab/Scala/lab07/src/main/resources/ogniem-i-mieczem.txt,/home/mati/homelab/Scala/lab07/target/scala-3.3.1/classes/ogniem-i-mieczem.txt)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/mati/homelab/Scala/lab07/src/main/resources/nazwiska.txt,/home/mati/homelab/Scala/lab07/target/scala-3.3.1/classes/nazwiska.txt)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/mati/homelab/Scala/lab07/src/main/resources/wyniki.csv,/home/mati/homelab/Scala/lab07/target/scala-3.3.1/classes/wyniki.csv)[0m

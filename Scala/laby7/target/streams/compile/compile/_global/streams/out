@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E067] Syntax Error: /home/mati/homelab/Scala/lab07/src/main/scala/Zad4.scala:50:5 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m50 |[0m [33mval[0m [36mres[0m: [35mMap[0m[[35mWojewództwo[0m, [35mList[0m[[35mWynik[0m]][0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m     ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mDeclaration of [33mvalue[0m [35mres[0m not allowed here: only classes can have declared but undefined members[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

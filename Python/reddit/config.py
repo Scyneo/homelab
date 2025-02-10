@@ -1,0 +1,5 @@
+CLIENT_ID = "enn4vmBZl1lUtXLmk91KCw"
+CLIENT_SECRET = "yE3go_tv8PKewBheOBlAO2v95p33xA"
+USER_AGENT = "jazdaa"
+USERNAME = "Scyneo"
+PASSWORD = "taZq:7@&FBhWTLzK2{d:FVsrl@>UZZo&$;ofUd@>Zm3G=6r2"
